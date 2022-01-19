@@ -8,11 +8,11 @@ function createSchnee() {
     schnee.style.left = Math.random() * window.innerWidth + "px";
     schnee.style.animationDuration = Math.random() * 15 + 2 + "s";
     schnee.style.opacity = Math.random();
-    schnee.style.fontSize= Math.random() * 0.7 + 10 + "px";
+    schnee.style.fontSize= Math.random() * 0.7 + 11 + "px";
 
     document.body.append(schnee);
 
     setTimeout(() => {
         schnee.remove();        
-    }, 5000);
+    }, 7000);
 }
